@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <a-button type="primary">我要吃饭</a-button>
+  <WangEditor/>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import WangEditor from "./components/wangeditor.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    WangEditor,
   },
 };
 </script>

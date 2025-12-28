@@ -14,12 +14,12 @@ export default function Skills() {
     </div>
   );
   return (
-    <div id="skills" className="w-full border-b border-dashed border-zinc-800">
+    <div id="skills" className="w-full">
       <WrapperBody>
         <div className="flex flex-col gap-4">
-          <p className="flex gap-2 items-center font-['Geist'] font-bold text-2xl"><FaBrain />Skills</p>
-          {skillSection("Language", profile.skills.languages)}
-          {skillSection("Frameworks", profile.skills.frameworks)}
+          <p className="flex gap-2 items-center font-['Geist'] font-bold text-2xl"><FaBrain />职业技能</p>
+          {skillSection("编程语言", profile.skills.languages)}
+          {skillSection("开发框架", profile.skills.frameworks)}
         </div>
       </WrapperBody>
     </div>

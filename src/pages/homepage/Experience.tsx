@@ -5,10 +5,10 @@ import dayjs from "dayjs";
 
 export default function Experience() {
   return (
-    <div id="experience" className="w-full border-b border-dashed border-zinc-800">
+    <div id="experience" className="w-full">
       <WrapperBody>
         <div className="flex flex-col gap-4">
-          <p className="flex gap-2 items-center font-['Geist'] font-bold text-2xl"><FaAward />Experience</p>
+          <p className="flex gap-2 items-center font-['Geist'] font-bold text-2xl"><FaAward />工作履历</p>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             {profile.experience.map((experience) => (
               <div

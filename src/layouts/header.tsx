@@ -1,9 +1,13 @@
-import { FaAward, FaBrain, FaGraduationCap, FaHome, FaPaperPlane, FaProjectDiagram } from 'react-icons/fa';
+import { FaAward,FaHome, FaPaperPlane, FaProjectDiagram } from 'react-icons/fa';
 import WrapperBody from './wrapper';
-import { SecondaryButton } from '../components/button';
+import { SecondaryButton, ThemeToggleButton } from '../components/button';
 import { DiReact } from 'react-icons/di';
+import { useTheme } from '../contexts/ThemeContext';
+import profile from '../configs/portfolio.json';
 
 export default function Header() {
+  const { toggleTheme } = useTheme();
+
   const scrollTo = (elementId: string) => {
     const targetElement = document.querySelector(elementId);
     if (!targetElement) return;
@@ -18,19 +22,19 @@ export default function Header() {
   };
 
   return (
-    <div className="sticky top-0 bg-zinc-950/10 backdrop-blur-xl w-full h-16 border-b border-dashed border-zinc-800">
+    <div className="sticky top-0 bg-zinc-950/10 backdrop-blur-xl w-full h-16">
       <WrapperBody>
         <div className="h-full flex justify-between items-center gap-12">
-          <a href="/" className="flex gap-2 items-center font-['Geist'] text-white font-semibold">
-            <DiReact size={24} /> Vite.Dev
+          <a href="/" className="flex gap-2 items-center font-['Geist'] font-semibold">
+            <DiReact size={24} />By LiangHChao
           </a>
           <div className='flex items-center justify-start gap-1'>
-            <SecondaryButton onClick={() => scrollTo('#bio')} label="Bio" icon={<FaHome size={16} />} />
-            <SecondaryButton onClick={() => scrollTo('#education')} label="Education" icon={<FaGraduationCap size={16} />} />
-            <SecondaryButton onClick={() => scrollTo('#experience')} label="Experience" icon={<FaAward size={16} />} />
-            <SecondaryButton onClick={() => scrollTo('#projects')} label="Projects" icon={<FaProjectDiagram size={16} />} />
-            <SecondaryButton onClick={() => scrollTo('#skills')} label="Skills" icon={<FaBrain size={16} />} />
-            <SecondaryButton onClick={() => scrollTo('#contacts')} label="Contacts" icon={<FaPaperPlane size={16} />} />
+            <SecondaryButton onClick={() => scrollTo('#bio')} label="个人简介" icon={<FaHome size={16} />} />
+            <SecondaryButton href={profile.docsLink} label="文档" icon={<FaPaperPlane size={16} />} />
+            <SecondaryButton onClick={() => scrollTo('#experience')} label="工作履历" icon={<FaAward size={16} />} />
+            <SecondaryButton onClick={() => scrollTo('#projects')} label="项目履历" icon={<FaProjectDiagram size={16} />} />
+            <SecondaryButton onClick={() => scrollTo('#contacts')} label="联系方式" icon={<FaPaperPlane size={16} />} />
+            <ThemeToggleButton onClick={toggleTheme} />
           </div>
         </div>
       </WrapperBody>

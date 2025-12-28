@@ -17,3 +17,47 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Light theme colors */
+:root {
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f8fafc;
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #64748b;
+  --color-border: #e2e8f0;
+}
+
+/* Dark theme colors */
+.dark {
+  --color-bg-primary: #0f172a;
+  --color-bg-secondary: #1e293b;
+  --color-text-primary: #f8fafc;
+  --color-text-secondary: #cbd5e1;
+  --color-border: #334155;
+}
+
+/* Apply theme colors */
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
+
+.border {
+  border-color: var(--color-border);
+}
+
+.text-zinc-50 {
+  color: var(--color-text-primary);
+}
+
+.text-zinc-300 {
+  color: var(--color-text-secondary);
+}
+
+.bg-zinc-950 {
+  background-color: var(--color-bg-primary);
+}
+
+.bg-zinc-50 {
+  background-color: var(--color-bg-secondary);
+}

@@ -1,10 +1,10 @@
 {
-  "name": "Your Name",
-  "bio": "I am a passionate full stack developer with over 8 years of experience building dynamic, user-focused web applications. I’m proficient in both front-end and back-end technologies, excelling at crafting seamless experiences using tools like React, Node.js, and PostgreSQL. With a keen eye for design and a knack for solving complex problems, I’ve contributed to projects ranging from sleek e-commerce platforms to robust enterprise solutions. When I’m not coding, I enjoy mentoring junior developers, exploring the latest tech trends, and sipping coffee while debugging late into the night.",
+  "name": "梁**",
+  "bio": "一转眼，已经穿越到这个世界20多年了。可惜我没有系统也没有金手指，不仅如此，我还始终没想起我前世是谁，有啥逆天的超能力。哎！真是天妒英才，想我一世英名何日才能被前世拯救啊。",
   "contacts": {
-    "phone": "+1 2222 333 4444",
-    "email": "for@example.com",
-    "github": "https://github.com/your-username",
+    "phone": "12366",
+    "email": "huachaoliangdr@foxmail.com",
+    "github": "https://github.com/lianghchao",
     "twitter": "https://x.com/your-username",
     "telegram": "https://t.me/your-username",
     "discord": "your-username",
@@ -12,54 +12,75 @@
   },
   "education": {
     "logo": "https://picsum.photos/id/231/300/300",
-    "degree": "Your Degree",
-    "university": "Your University",
-    "location": "Location",
-    "graduation": "2012/05/01 00:00:00",
+    "degree": "学士",
+    "university": "四川第一的综合性大学-不知道什么时候的排名，不过老师是这么说的",
+    "location": "成都",
+    "graduation": "2021/06/01 00:00:00",
     "courseWork": [
-      "Algorithms"
+      "SoftwareEngineering"
     ],
-    "project": "Your senior project"
+    "project": "Java"
   },
   "meetingLink": "https://meet.google.com",
+  "docsLink": "https://lianghchao.github.io/docs",
   "skills": {
     "languages": [
-      "JavaScript"
+      "Java",
+      "Mysql",
+      "tsx",
+      "不管了，先写上再说吧"
     ],
     "frameworks": [
+      "Redis",
+      "Mybatis-Plus",
+      "RuoYi-Vue-Plus",
       "React",
       "Next.js",
-      "Nest.js"
+      "Vue cli",
+      "暂时就这些吧"
     ]
   },
   "projects": [
     {
-      "name": "Project1",
-      "link": "https://project1.link",
-      "logo": "https://picsum.photos/id/232/300/300",
-      "description": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem Ipsum ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem Ipsum duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "name": "RuoYi-Vue-Plus",
+      "link": "https://plus-doc.top/",
+      "logo": "https://plus-doc.top/static/image/logo.png",
+      "description": "这是别人的项目，算了，我fork了能跑起来，那就是我也会。",
       "skills": [
-        "React",
-        "TypeScript",
-        "Tailwind CSS"
+        "spring-boot",
+        "mybatis-plus",
+        "vue cli",
+        "TypeScript"
       ]
     },
     {
-      "name": "Project2",
+      "name": "XXX ERP",
       "link": "https://project2.link",
       "logo": "https://picsum.photos/id/233/300/300",
-      "description": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem Ipsum ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem Ipsum duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "description": "悠闲的打杂时光就这么一去不返了，钱没挣到，技术没学到啥，时间不就浪费了吗。不过有人说浪费的时间才是自己的。无忧无虑的日子一去不返喽。",
       "skills": [
-        "React",
-        "TypeScript",
-        "Tailwind CSS"
+        "spring-boot",
+        "vue cli",
+        "mybatis"
       ]
     },
     {
-      "name": "Project3",
+      "name": "XXX 健康体检平台",
       "link": "https://project3.link",
       "logo": "https://picsum.photos/id/234/300/300",
-      "description": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem Ipsum ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem Ipsum duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "description": "正所谓长江后浪拍前浪，别看同事蛮年轻的。人家技术深度广度是真强，大二开始实习，牛掰。我大学干嘛去了呢？",
+      "skills": [
+        "spring-boot",
+        "mybatis-plus",
+        "mybatis-plus-ext",
+        "SnowAdmin-Vue"
+      ]
+    },
+    {
+      "name": "XXX 互联网医院",
+      "link": "https://project4.link",
+      "logo": "https://picsum.photos/id/235/300/300",
+      "description": "一个半月，三个人，功能基本实现，完成度约在80%。也不知道算不算高效率。",
       "skills": [
         "React",
         "TypeScript",
@@ -67,10 +88,10 @@
       ]
     },
     {
-      "name": "Project4",
+      "name": "XXX 护理上门",
       "link": "https://project4.link",
       "logo": "https://picsum.photos/id/235/300/300",
-      "description": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem Ipsum ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem Ipsum duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "description": "两个周，在互联网医院项目基础上，能复用复用，还是三个人，后端，pc端，小程序端。完成80%，不知道再来一个周能不能完成。不过，挣钱是别人的，身体是自己的，别给自己太大压力。当牛做马显然是挣不到钱的。",
       "skills": [
         "React",
         "TypeScript",

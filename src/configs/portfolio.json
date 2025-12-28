@@ -1,0 +1,143 @@
+{
+  "name": "Your Name",
+  "bio": "I am a passionate full stack developer with over 8 years of experience building dynamic, user-focused web applications. I’m proficient in both front-end and back-end technologies, excelling at crafting seamless experiences using tools like React, Node.js, and PostgreSQL. With a keen eye for design and a knack for solving complex problems, I’ve contributed to projects ranging from sleek e-commerce platforms to robust enterprise solutions. When I’m not coding, I enjoy mentoring junior developers, exploring the latest tech trends, and sipping coffee while debugging late into the night.",
+  "contacts": {
+    "phone": "+1 2222 333 4444",
+    "email": "for@example.com",
+    "github": "https://github.com/your-username",
+    "twitter": "https://x.com/your-username",
+    "telegram": "https://t.me/your-username",
+    "discord": "your-username",
+    "linkedin": "https://linkedin.com/in/your-username"
+  },
+  "education": {
+    "logo": "https://picsum.photos/id/231/300/300",
+    "degree": "Your Degree",
+    "university": "Your University",
+    "location": "Location",
+    "graduation": "2012/05/01 00:00:00",
+    "courseWork": [
+      "Algorithms"
+    ],
+    "project": "Your senior project"
+  },
+  "meetingLink": "https://meet.google.com",
+  "skills": {
+    "languages": [
+      "JavaScript"
+    ],
+    "frameworks": [
+      "React",
+      "Next.js",
+      "Nest.js"
+    ]
+  },
+  "projects": [
+    {
+      "name": "Project1",
+      "link": "https://project1.link",
+      "logo": "https://picsum.photos/id/232/300/300",
+      "description": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem Ipsum ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem Ipsum duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "name": "Project2",
+      "link": "https://project2.link",
+      "logo": "https://picsum.photos/id/233/300/300",
+      "description": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem Ipsum ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem Ipsum duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "name": "Project3",
+      "link": "https://project3.link",
+      "logo": "https://picsum.photos/id/234/300/300",
+      "description": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem Ipsum ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem Ipsum duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS"
+      ]
+    },
+    {
+      "name": "Project4",
+      "link": "https://project4.link",
+      "logo": "https://picsum.photos/id/235/300/300",
+      "description": "Lorem Ipsum dolor sit amet, consectetur adipiscing elit. Lorem Ipsum sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem Ipsum ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem Ipsum duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem Ipsum excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "skills": [
+        "React",
+        "TypeScript",
+        "Tailwind CSS"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "from": 1730347070000,
+      "to": 1740347070445,
+      "company": "Microsft",
+      "role": "Senior Software Engineer",
+      "logo": "https://companiesmarketcap.com/img/company-logos/64/MSFT.webp",
+      "descriptions": [
+        "Lorem Ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem Ipsum sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "Lorem Ipsum ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ]
+    },
+    {
+      "from": 1730347070000,
+      "to": 1740347070445,
+      "company": "Microsft",
+      "role": "Senior Software Engineer",
+      "logo": "https://companiesmarketcap.com/img/company-logos/64/GOOG.webp",
+      "descriptions": [
+        "Lorem Ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem Ipsum sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "Lorem Ipsum ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ]
+    },
+    {
+      "from": 1730347070000,
+      "to": 1740347070445,
+      "company": "Nvidia",
+      "role": "Senior Software Engineer",
+      "logo": "https://companiesmarketcap.com/img/company-logos/64/NVDA.webp",
+      "descriptions": [
+        "Lorem Ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem Ipsum sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "Lorem Ipsum ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ]
+    },
+    {
+      "from": 1730347070000,
+      "to": 1740347070445,
+      "company": "Tesla",
+      "role": "Senior Software Engineer",
+      "logo": "https://companiesmarketcap.com/img/company-logos/64/TSLA.webp",
+      "descriptions": [
+        "Lorem Ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem Ipsum sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "Lorem Ipsum ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ]
+    },
+    {
+      "from": 1730347070000,
+      "to": 1740347070445,
+      "company": "Oracle",
+      "role": "Senior Software Engineer",
+      "logo": "https://companiesmarketcap.com/img/company-logos/64/ORCL.webp",
+      "descriptions": [
+        "Lorem Ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem Ipsum sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "Lorem Ipsum ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      ]
+    }
+  ]
+}

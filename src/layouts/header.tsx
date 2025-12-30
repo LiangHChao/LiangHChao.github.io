@@ -1,5 +1,5 @@
 import { FaAward,FaHome, FaPaperPlane, FaProjectDiagram, FaChartBar } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import WrapperBody from './wrapper';
 import { SecondaryButton, ThemeToggleButton } from '../components/button';
 import { DiReact } from 'react-icons/di';
@@ -8,6 +8,7 @@ import profile from '../configs/portfolio.json';
 
 export default function Header() {
   const { toggleTheme } = useTheme();
+  const navigate = useNavigate();
 
   const scrollTo = (elementId: string) => {
     const targetElement = document.querySelector(elementId);
@@ -35,7 +36,7 @@ export default function Header() {
             <SecondaryButton onClick={() => scrollTo('#experience')} label="工作履历" icon={<FaAward size={16} />} />
             <SecondaryButton onClick={() => scrollTo('#projects')} label="项目履历" icon={<FaProjectDiagram size={16} />} />
             <SecondaryButton onClick={() => scrollTo('#contacts')} label="联系方式" icon={<FaPaperPlane size={16} />} />
-            <SecondaryButton href="/data" label="数据" icon={<FaChartBar size={16} />} />
+            <SecondaryButton onClick={() => navigate('/data')} label="数据" icon={<FaChartBar size={16} />} />
             <ThemeToggleButton onClick={toggleTheme} />
           </div>
         </div>
